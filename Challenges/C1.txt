@@ -1,0 +1,21 @@
+useradd -D
+sudo useradd -s /bin/bash -c "Just a comment..." -m user1
+sudo useradd -s /bin/bash -c "Just a comment..." -m user2
+cd ..
+sudo 000 user1
+sudo 777 user2
+sudo passwd user1
+password1
+password1
+sudo passwd user2
+password2
+password2
+sudo groupadd group1
+sudo usermod -a -G group1 user1
+sudo usermod -a -G group1 user2
+sudo userdel user1
+sudo userdel user2
+
+
+
+sudo chmod 777 /etc/shadow

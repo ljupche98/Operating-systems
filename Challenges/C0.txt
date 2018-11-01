@@ -1,0 +1,15 @@
+cd Desktop
+mkdir t1
+cd t1
+mkdir t2
+mkdir t3
+mkdir t4
+cd t3
+mkdir t5
+mkdir t6
+cd ..
+cd ..
+tree t1
+tree t1 -L 1
+echo -e "Operacijski sistemi\n63160369\tLjupche Milosheski\nUNI"
+printf "Operacijski sistemi\n63160369\tLjupche Milosheski\nUNI\n"
